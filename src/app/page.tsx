@@ -1,6 +1,6 @@
 export default async function Home() {
   return (
-    <main className='p-24'>
+    <main className=''>
       <div>hello world</div>
     </main>
   );

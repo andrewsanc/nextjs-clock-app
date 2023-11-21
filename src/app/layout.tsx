@@ -26,7 +26,15 @@ export default async function RootLayout({
   return (
     <html lang='en'>
       <body className={`relative min-h-screen ${inter.className}`}>
-        <Image className='-z-50' alt={description} src={full} fill priority />
+        <Image
+          className='-z-50'
+          alt={description}
+          src={full}
+          priority
+          fill
+          objectFit='cover'
+          objectPosition='center'
+        />
         {children}
       </body>
     </html>
